@@ -7,13 +7,5 @@
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": [
-  { "id": 1, "title": "Post1" },
-    { "id": 2, "title": "Post2" },
-    { "id": 3, "title": "Post3" }
-    { "id": 4, "title": "Post4" },
-    { "id": 5, "title": "Post5" },
-    { "id": 6, "title": "Post6" }
   ]
 }
