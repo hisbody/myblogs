@@ -30,7 +30,7 @@
   },
   "user": [
     {
-       "userID": "1",
+       "id": "1",
       "username": "pan",
       "email": "5362734@qq.com",
       "password":"123"
