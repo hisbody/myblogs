@@ -33,13 +33,15 @@
        "id": 1,
       "username": "pan",
       "email": "5362734@qq.com",
-      "password":"123"
+      "password":"123",
+      "rank":1
     },
 {
   "id": 2,
       "username": "admin",
       "email": "admin@qq.com",
-      "password":"admin"
+      "password":"admin",
+  "rank":3
     }
   ]
 }
