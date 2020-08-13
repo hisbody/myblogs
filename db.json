@@ -34,6 +34,12 @@
       "userID": "1345",
       "email": "5362734@qq.com",
       "password":"123"
+    },
+{
+      "username": "admin",
+      "userID": "1347",
+      "email": "admin@qq.com",
+      "password":"admin"
     }
   ]
 }
