@@ -1,47 +1,155 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "Post 1"
+    "posts": [{
+            "id": 1,
+            "title": "Post 1"
+        },
+        {
+            "id": 2,
+            "title": "Post 2"
+        },
+        {
+            "id": 3,
+            "title": "Post 3"
+        }
+    ],
+    "comments": [{
+            "id": 1,
+            "body": "some comment",
+            "postId": 0
+        },
+        {
+            "id": 2,
+            "body": "some comment",
+            "postId": 1
+        }
+    ],
+    "profile": {
+        "name": "typicode"
     },
-    {
-      "id": 2,
-      "title": "Post 2"
-    },
-    {
-      "id": 3,
-      "title": "Post 3"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  },
-  "user": [
-    {
-       "id": 1,
-      "username": "pan",
-      "email": "5362734@qq.com",
-      "password":"123",
-      "rank":1
-    },
-{
-  "id": 2,
-      "username": "admin",
-      "email": "admin@qq.com",
-      "password":"admin",
-  "rank":3
-    }
-  ]
+    "user": [{
+            "id": 1,
+            "username": "pan",
+            "minName": "白云苍狗",
+            "department": "研发部门",
+            "phone": "18488043503",
+            "state": "on",
+            "createTime": "2020/07/02",
+            "email": "5362734@qq.com",
+            "password": "123",
+            "role": ["admin"]
+        },
+        {
+            "id": 2,
+            "username": "pan",
+            "minName": "化",
+            "department": "研发部门",
+            "phone": "18488043503",
+            "state": "on",
+            "createTime": "2020/07/02",
+            "email": "5362734@qq.com",
+            "password": "123",
+            "role": ["admin", "gust"]
+        },
+        {
+            "id": 3,
+            "username": "pan",
+            "minName": "稳",
+            "department": "研发部门",
+            "phone": "18488043503",
+            "state": "on",
+            "createTime": "2020/07/02",
+            "email": "5362734@qq.com",
+            "password": "123",
+            "role": ["admin", "gust"]
+        },
+        {
+            "id": 4,
+            "username": "pan",
+            "minName": "春华秋实",
+            "department": "研发部门",
+            "phone": "18488043503",
+            "state": "on",
+            "createTime": "2020/07/02",
+            "email": "5362734@qq.com",
+            "password": "123",
+            "role": ["admin", "gust"]
+        },
+        {
+            "id": 5,
+            "username": "pan",
+            "minName": "雨雪霏霏",
+            "department": "研发部门",
+            "phone": "18488043503",
+            "state": "on",
+            "createTime": "2020/07/02",
+            "email": "5362734@qq.com",
+            "password": "123",
+            "role": ["admin", "gust"]
+        },
+        {
+            "id": 6,
+            "username": "pan",
+            "minName": "不思其反",
+            "department": "研发部门",
+            "phone": "18488043503",
+            "state": "on",
+            "createTime": "2020/07/02",
+            "email": "5362734@qq.com",
+            "password": "123",
+            "role": ["admin", "gust"]
+        },
+        {
+            "id": 7,
+            "username": "pan",
+            "minName": "芳草依依",
+            "department": "研发部门",
+            "phone": "18488043503",
+            "state": "on",
+            "createTime": "2020/07/02",
+            "email": "5362734@qq.com",
+            "password": "123",
+            "role": ["admin"]
+        }
+    ],
+    "role": [{
+            "id": 1,
+            "roleName": "超级管理员",
+            "roleString": "admin",
+            "sort": 1,
+            "state": "on",
+            "createTime": "2020/07/02"
+        },
+        {
+            "id": 2,
+            "roleName": "普通用户",
+            "roleString": "gust",
+            "sort": 1,
+            "state": "on",
+            "createTime": "2020/07/02"
+        },
+        {
+            "id": 3,
+            "roleName": "老板",
+            "roleString": "chief",
+            "sort": 1,
+            "state": "on",
+            "createTime": "2020/07/02"
+        },
+        {
+            "id": 4,
+            "roleName": "销售员",
+            "roleString": "salesman",
+            "sort": 1,
+            "state": "on",
+            "createTime": "2020/07/02"
+        },
+        {
+            "id": 5,
+            "roleName": "仓库管理员",
+            "roleString": "warehouse",
+            "sort": 1,
+            "state": "on",
+            "createTime": "2020/07/02"
+        }
+    ]
 }
